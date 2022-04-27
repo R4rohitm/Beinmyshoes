@@ -1,0 +1,48 @@
+.footer {
+  margin: auto;
+  margin-top: 40px;
+  width: 95%;
+  height: 250px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer > div {
+  margin: 25px 50px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer > div > div {
+  text-align: left;
+  color: gray;
+}
+.footer > div > div > div > p {
+  font-size: 12px;
+}
+
+.footer > div > div > div > p:hover {
+  text-align: left;
+  color: white;
+}
+
+.footer > div:last-child {
+  color: white;
+}
+.icon {
+  display: flex;
+  gap: 20px;
+}
+
+.icon a {
+  font-size: 30px;
+  color: gray;
+  background-color: transparent;
+}
+
+.icon a:hover {
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+}

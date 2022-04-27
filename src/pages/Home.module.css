@@ -1,0 +1,24 @@
+.endsection {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.endsection img {
+  height: 520px;
+  width: 450px;
+  object-fit: contain;
+}
+
+.endsection > button {
+  height: 20px;
+  width: 100px;
+  z-index: 1;
+}
+.endsection > button > img {
+  height: 520px;
+  width: 450px;
+  object-fit: contain;
+}

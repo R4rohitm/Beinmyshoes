@@ -11,6 +11,7 @@ import SignIn from "./pages/SignIn";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
 import Faq from "./pages/FaQ";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="contactus" element={<ContactUs />} />
         <Route path="faq" element={<Faq />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

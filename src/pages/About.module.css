@@ -4,6 +4,7 @@
   gap: 20px;
   width: 80%;
   justify-content: center;
+  border: 1px solid black;
 }
 
 .aboutus div:first-child {
@@ -20,7 +21,7 @@
 .aboutus div:last-child img {
   width: 95%;
   height: 80%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 span {
